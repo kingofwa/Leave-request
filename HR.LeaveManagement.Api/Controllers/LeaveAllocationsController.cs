@@ -69,12 +69,5 @@ namespace HR.LeaveManagement.Api.Controllers
             return NoContent();
         }
 
-
-
-        [HttpPost]
-        public async Task<ActionResult> PostTest(int id)
-        {
-            return NoContent();
-        }
     }
 }
