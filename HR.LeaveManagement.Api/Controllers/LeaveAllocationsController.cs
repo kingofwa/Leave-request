@@ -68,5 +68,13 @@ namespace HR.LeaveManagement.Api.Controllers
             await _mediator.Send(command);
             return NoContent();
         }
+
+
+
+        [HttpPost]
+        public async Task<ActionResult> PostTest(int id)
+        {
+            return NoContent();
+        }
     }
 }
